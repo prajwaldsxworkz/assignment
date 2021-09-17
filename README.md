@@ -241,3 +241,142 @@ public class amazon {
 
 }
 
+
+
+
+
+
+
+
+
+
+Assignment 13
+
+
+
+package com.phonepecs;
+
+public class Phonepe {
+	public static void login(String UserName, String Password);{
+		System.out.println("Logged in successfully with matched username and password");	}
+	
+	
+public static void MobileRec(String Operater, String Phoneno, int Amount ) {
+	String OP= "BSNL";
+	String PN="9456388907";
+	int AT=50;
+	if(OP==Operater && PN==Phoneno && AT==Amount) {
+		System.out.println("Mobile recharged Succesfully"+Phoneno);
+	}
+	else {
+		System.out.println("Mobile recharge Failed");
+	}
+	public static void Electricity(String Board, String CustomerID, int Amount ) {
+		String BD= "MESCOM";
+		String CD="9456388987";
+		int AT=500;
+		if(BD==Board && CD==CustomerID && AT==Amount) {
+			System.out.println("Electricity bill recharged Succesfully"+CustomerID);
+		}
+		else {
+			System.out.println("Electricity bill recharge Failed");
+		}
+		
+		public static void Water(String Board, String CustomerID, int Amount ) {
+			String BD= "CAUVERY";
+			String CD="9456688987";
+			int AT=800;
+			if(BD==Board && CD==CustomerID && AT==Amount) {
+				System.out.println("Water bill recharged Succesfully"+CustomerID);
+			}
+			else {
+				System.out.println("Water bill recharge Failed");
+			}
+			public static void DTH(String Operater, String CustomerID, int Amount ) {
+				String OR= "D2H";
+				String CD="9556688987";
+				int AT=560;
+				if(OR==Operater && CD==CustomerID && AT==Amount) {
+					System.out.println("DTH bill recharged Succesfully"+CustomerID);
+				}
+				else {
+					System.out.println("DTH bill recharge Failed");
+				}
+				
+				
+				public static void MoneyTransfer(String Name, String AccNo, int Amount ) {
+					String NA= "CAUVERY";
+					String AN="9456688987";
+					int AT=1800;
+					if(NA==Name && AN==AccNo && AT==Amount) {
+						System.out.println("Money transferred Succesfully"+AccNo);
+					}
+					else {
+						System.out.println("Money transfer  Failed!!");
+					}
+		
+	public static void main(String []args) {
+		System.out.println("Enter to Phonepe application");
+		Phonepe.login(null, null);
+		Phonepe.MobileRec(null, null, 0);
+		Phonepe.Electricity(null, null, 0);
+		Phonepe.Water(null, null, 0);
+		Phonepe.DTH(null, null, 0);
+		Phonepe.MoneyTransfer(null, null, 0);
+		System.out.println("Logout from Phonepe");
+		}
+		
+	}
+}
+
+
+
+
+
+
+
+Assignment 14 
+
+
+
+
+package com.phonepecs;
+
+public class ATM {
+	public static void Insert() {
+		System.out.println("Insert the card correctly");
+	
+	}
+	public static void CheckBal(String password, int amount) {
+		String PW="1234";
+		int AT=500;
+		if(PW==password && AT==amount) {
+			System.out.println("Display balence"+amount);
+		}
+		else {
+			System.out.println("Wrong password!!");
+		}
+		
+		public static void Withdrawl(String password, int amount,int withamt) {
+			String PW="1234";
+			int AT=999;
+			int WA=500;
+			if(PW==password && AT==amount && AT>WA) {
+				System.out.println("Withdrawn the amount successfully"+withamt);
+				
+			}
+			else {
+				System.out.println("Withdrawing the amount not possible ");
+			}
+			public static void main(String[]args) {
+				System.out.println("Enter the ATM room");
+				ATM.CheckBal(1234, 500);
+				ATM.Withdrawl(1234, 999, 500);
+				System.out.println("Exit from the room ");
+			}
+				
+			
+	}
+
+}
+
