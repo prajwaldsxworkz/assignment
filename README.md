@@ -380,3 +380,111 @@ public class ATM {
 
 }
 
+
+
+
+
+Assignment 15
+
+
+package com.newmethod;
+
+public class discount {
+	public static void Discount (double value ,double discount) {
+		double total=value-(value*discount);
+		if(value==1000) {
+			System.out.println("the discount is 10% and the discounted price is"+total);
+		}
+		else if(value==2000) {
+			System.out.println("the discount is 20% and the discounted price is"+total);
+		}
+		else if(value==3000) {
+			System.out.println("the discount is 25% and the discounted price is"+total);
+		}
+		else if(value>=3000) {
+			System.out.println("the discount is 30% and the discounted price is"+total);
+		}
+		
+		
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the shop");
+		discount.Discount(3500, 0.35);
+		System.out.println("Thank you for  shopping with us ");
+		
+	}
+
+}
+
+
+Assignment 16
+
+
+
+package com.newmethod;
+
+public class vtu {
+	public static double VtuResults() {
+		return 75;
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the VTU Official Website");
+		double Results=VtuResults();
+		System.out.println("Vtu reults"+Results);
+		
+
+	}
+
+
+}
+
+
+
+Asiignment 16
+
+
+
+package com.newmethod;
+
+public class temperature {
+	public static double GetTemperature() {
+		return 25.0;
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the temperature forecast of today");
+		double temp=GetTemperature();
+		System.out.println("temperature"+temp);
+		
+
+	}
+
+}
+
+
+
+Asiignment 17
+
+
+package com.newmethod;
+
+public class billgenerator {
+	
+	
+	public static void Billgenerator(int price , int quantity) {
+		int total=price*quantity;{
+			System.out.println("total is "+total)	;}
+	}
+
+	public static void main(String[] args) {
+		
+	System.out.println("Welcome");
+	billgenerator.Billgenerator(15, 12);
+
+	}
+
+}
+
+
