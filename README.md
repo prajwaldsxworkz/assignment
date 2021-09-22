@@ -488,3 +488,146 @@ public class billgenerator {
 }
 
 
+
+Assignment18
+
+package com.newmethod;
+
+public class Bank {
+	String bankname;
+String branch ;
+String type;
+String timings;
+int staffcapacity ;
+int noofaccounts;
+
+
+
+public void Issuecheque() {
+	System.out.println("Check issued");
+}
+
+public void Debitcard() {
+	System.out.println("Debit card has been issued");
+}
+public void Creditcard() {
+	System.out.println("Credit card has been issued");
+}
+public void withdraw() {
+	System.out.println("Money withdraw has been succesfull");
+}
+public void accountcreate() {
+	System.out.println("Account has been created");
+}
+}
+
+
+
+
+Assignment 19
+
+
+package com.newmethod;
+
+public class ac {
+	String model;
+	String colour;
+	String mounttype;
+	int price;
+	int toncapacity;
+	int weight;
+	
+
+	
+	public void turnon() {
+		System.out.println("AC turned on");
+	}
+	
+	public void Increase() {
+		System.out.println("AC temperature incresed");
+	}
+	public void Recirculation() {
+		System.out.println("AC Recirculation started ");
+	}
+	public void Decrease() {
+		System.out.println("AC speed decreased");
+	}
+	public void turnoff() {
+		System.out.println("AC speed turned off");
+	}
+}
+
+
+Assignment 20
+
+
+package com.newmethod;
+
+public class Laptop {
+	String model;
+	String colour;
+	String displaytype;
+	String Os;
+	int Ram;
+	int Rom;
+	int displaysize;
+	int bittype;
+
+	
+	public void Start() {
+		System.out.println("Laptop is showing start screen");
+	}
+	
+	public void chrome() {
+		System.out.println("Chrome browser is opened");
+	}
+	public void wifi() {
+		System.out.println("Wifi turned on");
+	}
+	public void search() {
+		System.out.println("Search bar opened");
+	}
+	public void shutdown() {
+		System.out.println("Laptop turned off");
+	}
+}
+
+
+
+
+
+Assignment 21
+
+
+
+
+package com.newmethod;
+
+public class car {
+	String model;
+	String colour;
+	String door;
+	int price;
+	int displacement;
+	int fueltankcapacity;
+	int mileage;
+
+	
+	public void Dooropen() {
+		System.out.println("Door opened");
+	}
+	
+	public void enginestart() {
+		System.out.println("engine has been started");
+	}
+	public void Gearshift() {
+		System.out.println("Gear has been shifted");
+	}
+	public void Headlight() {
+		System.out.println("Headlight turned on");
+	}
+	public void brake() {
+		System.out.println("Break has been applied");
+	}
+}
+
