@@ -630,4 +630,81 @@ public class car {
 		System.out.println("Break has been applied");
 	}
 }
+Assignment 22
+package prajwalds.oops;
+
+public class Bankapplication {
+	String name;
+	String mail;
+	String Panno;
+	long Aadhar;
+	String bank;
+	Bankapplication(){
+		System.out.println("Constructor invoked");
+		this.bank=bank;
+	}
+	public Bankapplication(String name, String mail , String Panno) {
+		System.out.println("Registration successfull using Pan number");
+	}
+	public Bankapplication (String name ,String mail , long Aadhar) {
+		System.out.println("Registration successfull using Aadhar number");
+		
+	}
+	public void Displayinfo() {
+		System.out.println(this.bank);
+	}
+
+
+}
+
+
+
+
+package prajwalds.oops;
+
+public class Banktesting {
+	public static void main(String[]args) {
+		Bankapplication Karnatakabank =new Bankapplication();
+	}
+ 
+}
+
+
+
+Assignment 23
+
+package prajwalds.oops;
+
+public class atm {
+	short password;
+	String name;
+	int balence;
+	atm(){
+		System.out.println("Constructer invoked");
+		this.balence=balence;
+	}
+	public atm (String name,short password) {
+		System.out.println("Withdrawl of the amount Succesfull");
+		
+		
+	}
+public atm(String name,short password,int balence) {
+System.out.println("The Balence is shown ");	
+}
+}
+
+
+
+package prajwalds.oops;
+
+public class ATMtesting {
+	
+
+	public static void main(String[]args) {
+		atm Karnatakabank =new atm();
+	}
+ 
+}
+
+
 
